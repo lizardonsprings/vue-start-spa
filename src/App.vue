@@ -1,5 +1,5 @@
 <template>
-<!-- https://youtu.be/1GNsWa_EZdw?t=3304 currently up to here on video -->
+<!-- https://youtu.be/1GNsWa_EZdw?t=5539 currently up to here on video -->
 
 <navbar
     :pages="pages"
