@@ -1,4 +1,5 @@
 <template>
+
     <nav 
         :class="[`navbar-${theme}`, `bg-${theme}`, 'navbar', 'navbar-expand-lg']"
     >
@@ -29,9 +30,12 @@
 
         </div>
     </nav>
+
 </template>
 
+
 <script>
+
 export default {
         props: ['pages', 'activePage', 'navLinkClick'],
         data() {
@@ -51,4 +55,5 @@ export default {
             }
         }
     }
+
 </script>
